@@ -368,19 +368,17 @@
              <div class="col-lg-7 col-lg-offset-1">
 				<p>Die Aufwertung des Wohnumfeldes, also der Orte im Quartier, wo sich die Bewohner treffen und austauschen können, war ein weiteres Teilprojekt im Rahmen des «Projet Urbain». Viele der Spielplätze waren beschädigt — und sind es teilweise heute wieder.</p>
 					
-				<img src="img/PrattelnGemeinde_web.jpg" alt="Mein Bild" class="img-responsive">
+				<div id="map"></div>
 				 
 				<p></p>
 				
-				<p>Pratteln integrierte in der zweiten Projetphase noch zwei weitere Quartiere: Rankacker/Gehrenacker und Aegelmatt/Stockmatt. In diesen drei Schwerpunktgebieten wohnen gut 6‘500 Personen oder rund 45% der Prattler Wohnbevölkerung.</p>
+				<p>Pratteln integrierte in der zweiten Projetphase noch zwei weitere Quartiere: <span style="color:#cc00f8;">Aegelmatt/Stockmatt</span> und <span style="color:#0018fc;">Rankacker/Gehrenacker</span>. In diesen drei Schwerpunktgebieten wohnen gut 6‘500 Personen oder rund 45% der Prattler Wohnbevölkerung.</p>
 				
 				<p>&nbsp;</p>
 				
 				<h2>Abgeschiedenheit vom Zentrum</h2>
 				
 				<p>Für das Längi-Quartier kommt im Vergleich zu den anderen Quartieren ein weiterer Faktor hinzu, die dem Viertel unter anderem den Ruf eines «Ghettos» eingebracht hat: die grosse Entfernung zum Pratteler Zentrum. Die Bewohner fühlen sich nicht wirklich als Teil der Gemeinde.</p>
-				
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.87176842778!2d7.701232237453027!3d47.50856419148874!2m3!1f0!2f41.024862807239955!3f0!3m2!1i1024!2i768!4f20!3m3!1m2!1s0x4791b67751a00817%3A0xffeee9ccf9b771c2!2zTMOkbmdpLCA0MTMz!5e1!3m2!1sde!2sch!4v1487096089135" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				
 				<p></p>
 				
@@ -627,6 +625,10 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
+    
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNBDy2W1TfP9qR-LjUXjtOH5f3rrsE3rM&callback=initMap" async defer></script>
+    <script src="js/laengimaps.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -634,11 +636,11 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    
 	<script src="js/grayscale.js"></script>
 
 </body>
