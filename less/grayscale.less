@@ -318,16 +318,19 @@ p1 {
 }*/
 
 .bg-3 {
-    background:url(../img/olga_beten.jpg) no-repeat left center fixed;
+    background:url(../img/_59B3310.jpg) no-repeat left center fixed;
     color:#fff;
     background-size:cover;
     height: 600px;
     text-align: match-parent;
     h3 {
-        text-shadow: 1px 1px 1px rgba(165, 165, 165, 1);
+        text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
     }
     p {
-        text-shadow: 1px 1px 1px rgba(165, 165, 165, 1);
+        text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
+    }
+    @media(max-width:767px) {
+        display: none;
     }
 }
 
@@ -336,26 +339,51 @@ p1 {
     color:#fff;
     background-size:cover;
     height: 600px;
-    text-align: match-parent;    h3 {
-    text-shadow: 1px 1px 1px rgba(165, 165, 165, 1);
-}
+    text-align: match-parent;
+    h3 {
+        text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
+    }
     p {
-        text-shadow: 1px 1px 1px rgba(165, 165, 165, 1);
+        text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
+    }
+    @media(max-width:767px) {
+        display: none;
     }
 
 }
 
 .bg-1 {
-    background:url(../img/IMG_5665.JPG) no-repeat left center fixed;
+    background:url(../img/_59B3314.jpg) no-repeat center bottom fixed;
     color:#fff;
     background-size:cover;
     height: 600px;
     text-align: match-parent;
     h3 {
-        text-shadow: 1px 1px 1px rgba(165, 165, 165, 1);
+        text-shadow: 1px 1px 1px rgba(80, 80, 80, 1);
     }
     p {
-        text-shadow: 1px 1px 1px rgba(165, 165, 165, 1);
+        text-shadow: 1px 1px 1px rgba(80, 80, 80, 1);
+    }
+    @media(max-width:767px) {
+        display: none;
+    }
+}
+
+
+.bg-4 {
+    background:url(../img/_59B3312.jpg) no-repeat left center fixed;
+    color:#fff;
+    background-size:cover;
+    height: 600px;
+    text-align: match-parent;
+    h3 {
+        text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
+    }
+    p {
+        text-shadow: 1px 1px 1px rgba(100, 100, 100, 1);
+    }
+    @media(max-width:767px) {
+        display: none;
     }
 }
 
@@ -384,7 +412,7 @@ blockquote {
     border: none;
     text-align: left;
     text-transform: none;
-    font-family: @title;
+    font-family: @subtitle;
     letter-spacing: 2px;
 }
 
@@ -413,7 +441,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: none;
-    font-family: @title;
+    font-family: @subtitle;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -461,7 +489,13 @@ a {
         }
     }
     .navbar-brand {
+        margin-top: 5px;
         font-weight: 700;
+        background: url(../img/tewe-logo.jpg) no-repeat;
+        display: block;
+        width: 260px;
+        height: 40px;
+        background-size: contain;
         &:focus {
             outline: none;
         }
@@ -650,7 +684,7 @@ a {
 #map {
     width: 140%;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 @media(max-width:1199px) {

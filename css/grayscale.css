@@ -279,17 +279,22 @@ p1 {
   color: #008246;
 }*/
 .bg-3 {
-  background: url(../img/olga_beten.jpg) no-repeat left center fixed;
+  background: url(../img/_59B3310.jpg) no-repeat left center fixed;
   color: #fff;
   background-size: cover;
   height: 600px;
   text-align: match-parent;
 }
 .bg-3 h3 {
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #646464;
 }
 .bg-3 p {
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #646464;
+}
+@media (max-width: 767px) {
+  .bg-3 {
+    display: none;
+  }
 }
 .bg-2 {
   background: url(../img/spar.jpg) no-repeat left center fixed;
@@ -299,23 +304,51 @@ p1 {
   text-align: match-parent;
 }
 .bg-2 h3 {
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #646464;
 }
 .bg-2 p {
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #646464;
+}
+@media (max-width: 767px) {
+  .bg-2 {
+    display: none;
+  }
 }
 .bg-1 {
-  background: url(../img/IMG_5665.JPG) no-repeat left center fixed;
+  background: url(../img/_59B3314.jpg) no-repeat center bottom fixed;
   color: #fff;
   background-size: cover;
   height: 600px;
   text-align: match-parent;
 }
 .bg-1 h3 {
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #505050;
 }
 .bg-1 p {
-  text-shadow: 1px 1px 1px #a5a5a5;
+  text-shadow: 1px 1px 1px #505050;
+}
+@media (max-width: 767px) {
+  .bg-1 {
+    display: none;
+  }
+}
+.bg-4 {
+  background: url(../img/_59B3312.jpg) no-repeat left center fixed;
+  color: #fff;
+  background-size: cover;
+  height: 600px;
+  text-align: match-parent;
+}
+.bg-4 h3 {
+  text-shadow: 1px 1px 1px #646464;
+}
+.bg-4 p {
+  text-shadow: 1px 1px 1px #646464;
+}
+@media (max-width: 767px) {
+  .bg-4 {
+    display: none;
+  }
 }
 .embed-container {
   position: relative;
@@ -341,7 +374,7 @@ blockquote {
   border: none;
   text-align: left;
   text-transform: none;
-  font-family: "Anton", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
 }
 /* end */
@@ -364,7 +397,7 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: none;
-  font-family: "Anton", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -411,7 +444,13 @@ a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand {
+  margin-top: 5px;
   font-weight: 700;
+  background: url(../img/tewe-logo.jpg) no-repeat;
+  display: block;
+  width: 260px;
+  height: 40px;
+  background-size: contain;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -583,7 +622,7 @@ a:focus {
 #map {
   width: 140%;
   height: 600px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 @media (max-width: 1199px) {
   .content-section {
