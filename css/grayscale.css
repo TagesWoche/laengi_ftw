@@ -503,7 +503,7 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 100px 0 100px 20%;
   text-align: left;
   color: white;
   background: url(../img/IMG_5680.JPG) no-repeat bottom center scroll;
@@ -519,16 +519,15 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
-  position: absolute;
-  top: 20px;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  margin-top: 290px;
 }
 @media (min-width: 768px) {
   .intro {
     height: 100%;
-    padding: 0;
+    padding: 100px 0 100px 20%;
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
@@ -539,6 +538,23 @@ a:focus {
     position: absolute;
     top: 450px;
   }
+}
+@media (max-width: 768px) {
+  .intro {
+    height: 100vh;
+    padding-left: 10%;
+  }
+}
+.intro h1 {
+  max-width: 700px;
+}
+@media (min-width: 768px) {
+  .intro h1 {
+    margin: 680px 0 0 0;
+  }
+}
+.intro p {
+  margin-bottom: 0;
 }
 .btn-circle {
   object-position: center;
